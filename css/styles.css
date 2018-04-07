@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  background-image: url('../images/image.jpg');
+  background-size: cover;
+}
+
+header {
+  background-color: #189FD3;
+}
+
+.body {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#app h1 {
+  width: 80%;
+  margin: auto;
+  padding: 16px 0;
+  color: white;
+}
+
+#app li {
+  line-height: 2.0;
+  background-color: white;
+  margin-bottom: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+#app input[type="text"] {
+  font-size: 20px;
+  padding: 10px;
+  width: 80%;
+  margin: auto;
+  display: inline;
+}
+
+.command {
+  cursor: pointer;
+  float: right;
+  margin-right: 5px;
+  color: red;
+}
+
+#app ul {
+  padding: 0;
+  list-style: none;
+}
+
+#app li > span.done {
+  text-decoration: line-through;
+  color: #bbb;
+}
+
+.info {
+  color: gray;
+  font-size: 12px;
+  font-weight: normal;
+  float: right;
+}
+
+.purge {
+  float: right;
+}
+
+
